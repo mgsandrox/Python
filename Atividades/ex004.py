@@ -1,0 +1,7 @@
+ n1 = input('Digite Algo: ')
+ print('O tipo primitivo é: ', type(n1))
+ print("tem alguma casa decimal: ", n1.isdecimal())
+ print('tem espaços em branco? ', n1.isspace())
+ print('Não sei o que significa', n1.isdigit())
+ print('É um numero? ', n1.isalpha())
+ print('É alfanumerico? ', n1.isalnum())
