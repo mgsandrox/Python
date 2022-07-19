@@ -1,0 +1,5 @@
+frase =  str(input(' Digite seu nome completo: ')).strip()
+div = frase.split()
+print('É um prazer te conhecer!!!')
+print(f'O seu primeiro nome é {div[0]}')
+print(f'O seu útinome é {div[len(div)-1]}')
